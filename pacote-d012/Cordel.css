@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+body and html{
+    font-size: large;
+    font-family: var(--font-Sriracha);
+}
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Special+Gothic+Condensed+One&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bebas+Neue&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Passion+One:wght@400;700;900&family=Special+Gothic+Condensed+One&family=Sriracha&display=swap');
+
+@font-face{
+    font-family: "Sriracha";
+    src: url(../Sriracha-Regular.ttf) format(opentype);
+    font-weight: normal;
+}
+
+:root{
+    --font-padrão: Arial, Helvetica, sans-serif;
+    --font-Sriracha: "Sriracha", Arial;
+    font-weight: 400;
+    font-style: normal;
+    --font-Almarai: font-family:.almarai-regular {
+        font-family: "Almarai", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    font-variant: small-caps;
+    font-family: var(--font-padrão);
+}
+
+body{
+    font-family: var(--font-Sriracha);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p > a:hover{
+    color: rgba(3, 19, 243, 0.49);
+    text-decoration: underline;
+}
+
+article{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-weight: bolder;
+    line-height: 10mm;
+    margin: 20px;
+    font-family: var(--font-Almarai);
+}
+#imagem{
+    background-image: url(imagens/background001.jpg);
+    background-position:right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+#imagem > p{
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.399);
+    margin: auto;
+    color: white;
+    width: 230px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: absolute;
+    transform: translate(-1%, 28%);
+}
+h1{
+    font-weight: bolder;
+    text-align: center;
+}
+.sub{
+    text-align: center;
+}
+
+#segunda{
+    background-image: url(imagens/background002.jpg);
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    margin: 0px;
+    position: relative;
+}
+
+#segunda > p{
+    border-radius: 3px;
+    background:rgba(0, 0, 0, 0.399);
+    margin: auto;
+    color: white;
+    width: 230px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: absolute;
+     transform: translate(-1%, 28%);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p > a{
+    font-weight: bolder;
+}
